@@ -17,7 +17,7 @@ templates = Jinja2Templates(directory="templates")
 # S3バケット名は環境変数から取得
 BUCKET_NAME = os.environ.get("BUCKET_NAME")
 s3_client = boto3.client("s3")
-gemini_model = "gemini-2.0-flash"
+gemini_model = "gemini-2.0-flash-exp"
 
 # 対象のアプリ名リスト
 app_names = [

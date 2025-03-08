@@ -1,0 +1,20 @@
+-r requirements.txt
+fastapi>=0.104.1
+uvicorn>=0.24.0
+jinja2>=3.1.2
+python-dotenv>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+praw>=7.7.1
+arxiv>=1.4.8
+sgmllib3k>=1.0.0
+tqdm>=4.66.1
+
+# Lambda関数の依存関係
+-r nook/lambda/reddit_explorer/requirements.txt
+-r nook/lambda/hacker_news/requirements.txt
+-r nook/lambda/github_trending/requirements.txt
+-r nook/lambda/tech_feed/requirements.txt
+-r nook/lambda/paper_summarizer/requirements.txt
+-r nook/lambda/viewer/requirements.txt
+-r nook/lambda/common/requirements.txt
